@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Flappy Bird</title>
+</head>
+
+<body>
+    <div class="fundo">
+        <h1>Flappy Bird</h1>
+    <div class="container-form">
+        <h3>Configurações do Game</h3>
+        <div class="form-inicial">
+            <div>
+                <label for="">Nome do Jogador: </label>
+                <input type="text" id="nome-jogador">
+            </div>
+            <div>
+                <label>Cenário do Jogo: </label>
+                <input type="radio" name="cenario" value="dia" checked>
+                <span>Diurno</span>
+                <input type="radio" name="cenario" value="noite">
+                <span>Noturno</span>
+            </div>
+            <div>
+                <label for="">Abertura entre aberturas dos canos: </label>
+                <input type="radio" name="aberturaCanos" value="230">
+                <span>Fácil</span>
+                <input type="radio" name="aberturaCanos" value="200" checked>
+                <span>Médio</span>
+                <input type="radio" name="aberturaCanos" value="170">
+                <span>Difícil</span>
+            </div>
+            <div>
+                <label for="">Distancia entre os canos: </label>
+                <input type="radio" name="distanciaCanos" value="450">
+                <span>Fácil</span>
+                <input type="radio" name="distanciaCanos" value="400" checked>
+                <span>Médio</span>
+                <input type="radio" name="distanciaCanos" value="350">
+                <span>Difícil</span>
+            </div>
+            <div>
+                <label for="">Velocidade do Jogo: </label>
+                <input type="radio" name="velJogo" value="2">
+                <span>Baixa</span>
+                <input type="radio" name="velJogo" value="3" checked>
+                <span>Média</span>
+                <input type="radio" name="velJogo" value="5">
+                <span>Rápida</span>
+            </div>
+            <div>
+                <label for="">Personagem: </label>
+                <select name="" id="personagem-jogo">
+                    <option value="passaro1">Personagem 1</option>
+                    <option value="passaro2">Personagem 2</option>
+                    <option value="passaro3">Personagem 3</option>
+                </select>
+            </div>
+            <div>
+                <label for="">Tipo do jogo: </label>
+                <input type="radio" name="tipoJogo" value="treino">
+                <span>Treino</span>
+                <input type="radio" name="tipoJogo" value="real" checked>
+                <span>Real</span>
+            </div>
+            <div>
+                <label for="">Velocidade do Personagem:</label>
+                <input type="radio" name="velPersonagem" value="baixa">
+                <span>Baixa</span>
+                <input type="radio" name="velPersonagem" value="media" checked>
+                <span>Média</span>
+                <input type="radio" name="velPersonagem" value="rapida">
+                <span>Rápida</span>
+            </div>
+            <div>
+                <label for="">Pontuação: </label>
+                <input type="radio" name="pontuacaoJogo" value="1" checked>
+                <span>1</span>
+                <input type="radio" name="pontuacaoJogo" value="10">
+                <span>10</span>
+                <input type="radio" name="pontuacaoJogo" value="100">
+                <span>100</span>
+            </div>
+            <!-- <a href="" id="btnSubmit-formInicial">
+                <img src="img/playbtn.png"  id="logo-btn"alt="" type="submit">
+            </a> -->
+            <button id="btnSubmit-formInicial"><img src="img/playbtn.png"  id="logo-btn" alt=""></button>
+            <!-- <input type="submit" id="btnSubmit-formInicial" value="Jogar"> -->
+        </div>
+    </div>
+</div>
+<script src="js/js-form.js"></script>
+</body>
+
+</html>
